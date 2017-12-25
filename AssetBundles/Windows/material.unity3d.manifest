@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1757617805
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a5f07324ef119d33178135549e2f5779
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0520077050483de6babb9bd310d40764
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundleGraphTool/TestAssets/MyMaterial.mat
+Dependencies:
+- C:/Users/murakami/Documents/Unity_Murakami/Practice_AssetBundle2/AssetBundles/Windows/texture.unity3d
