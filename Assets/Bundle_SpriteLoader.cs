@@ -20,7 +20,7 @@ public class Bundle_SpriteLoader : MonoBehaviour {
 		// yield return StartCoroutine( DownLoadCo );
 
 		yield return new WaitForSeconds( 10f );
-		cachePath = "Application.persistentDataPath" + System.IO.Path.GetFileName( fileFullPath );
+		cachePath = Application.persistentDataPath + System.IO.Path.GetFileName( fileFullPath );
 
 
 		/// 2.解凍。
