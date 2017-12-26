@@ -8,7 +8,6 @@ using System.IO;
 public class Bundle_SpriteLoader : MonoBehaviour {
 
 	[SerializeField] string fileFullPath;
-	[SerializeField] string fileName; // 最後の"/"以降の文字を取得できればそれでよいがとりあえず
 	private string cachePath;
 
 	void Start(){
@@ -17,8 +16,12 @@ public class Bundle_SpriteLoader : MonoBehaviour {
 
 	IEnumerator BundleLoadCo(){
 		/// 1、DL?。
-		var DownLoadCo = DLAssetBundle( fileFullPath );
-		yield return StartCoroutine( DownLoadCo );
+		// var DownLoadCo = DLAssetBundle( fileFullPath );
+		// yield return StartCoroutine( DownLoadCo );
+
+		yield return new WaitForSeconds( 10f );
+		cachePath = "Application.persistentDataPath" + System.IO.Path.GetFileName( fileFullPath );
+
 
 		/// 2.解凍。
 		var unzipCo = Bundle_LoadFromFile( cachePath );
@@ -36,28 +39,28 @@ public class Bundle_SpriteLoader : MonoBehaviour {
 		}
 	}
 
-	/// 1.AssetBundleのDL。
-	IEnumerator DLAssetBundle( string _fileFullPath ){
-		using(WWW www = new WWW(_fileFullPath)){
-			// DL完了待ち
-			while( !www.isDone ){
-				Debug.Log("DL待ち");
-				yield return null;
-			}
-			// エラーがあれば表示
-			if( !string.IsNullOrEmpty( www.error )){
-				Debug.Log("DLエラー");
-			} else {
-				try{				
-					// キャッシュに保存
-					cachePath = "Application.persistentDataPath" + fileName;
-					File.WriteAllBytes(cachePath ,www.bytes);
-				}catch (System.Exception ex){
-					Debug.LogError("DLエラー発生：" + ex);
-				}
-			}
-		}
-	}
+	// /// 1.AssetBundleのDL。
+	// IEnumerator DLAssetBundle( string _fileFullPath ){
+	// 	using(WWW www = new WWW(_fileFullPath)){
+	// 		// DL完了待ち
+	// 		while( !www.isDone ){
+	// 			Debug.Log("DL待ち");
+	// 			yield return null;
+	// 		}
+	// 		// エラーがあれば表示
+	// 		if( !string.IsNullOrEmpty( www.error )){
+	// 			Debug.Log("DLエラー");
+	// 		} else {
+	// 			try{				
+	// 				// キャッシュに保存
+	// 				cachePath = "Application.persistentDataPath" + _fileFullPath;
+	// 				File.WriteAllBytes(cachePath ,www.bytes);
+	// 			}catch (System.Exception ex){
+	// 				Debug.LogError("DLエラー発生：" + ex);
+	// 			}
+	// 		}
+	// 	}
+	// }
 
 
 	/// 2、Bundle解凍？（Unity的にはこれ一択らしい）
@@ -68,7 +71,7 @@ public class Bundle_SpriteLoader : MonoBehaviour {
 
 	/// 3.Assetの取り出し？（公式だけど最善の選択か確認はしてない）
 	IEnumerator Bundle_LoadAsset( AssetBundle _asset, string suffix ){
-		var sprite = _asset.LoadAsset<Sprite>( fileName + suffix );
+		var sprite = _asset.LoadAsset<Sprite>( System.IO.Path.GetFileName( fileFullPath ) + suffix );
 		yield return sprite;
 	}
 
