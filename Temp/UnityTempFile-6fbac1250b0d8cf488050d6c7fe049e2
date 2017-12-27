@@ -1,0 +1,254 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp-Editor.dll
+-unsafe
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/Managed/UnityEditor.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity5.6.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_1
+-define:UNITY_5_6
+-define:UNITY_5
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ASSETBUNDLE_BROWSER_INSTALLED
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleBrowserMain.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleBuildTab.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleDataSource/ABDataSource.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleDataSource/ABDataSourceProvider.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleDataSource/AssetDatabaseABDataSource.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleManageTab.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleModel/ABModel.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleModel/ABModelAssetInfo.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleModel/ABModelBundleInfo.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetBundleTree.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/AssetListTree.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/BundleDetailList.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/MessageList.cs
+Assets/AssetBundleBrowser/UnityEngine.AssetBundles/Editor/AssetBundleBrowser/MessageSystem.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/AssetGraphEditorWindow.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/AssetLog/AssetProcessEventListTree.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/AssetLog/AssetProcessEventLogViewController.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/AssetLog/AssetProcessEventLogWindow.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/BatchBuild/BatchBuildWindow.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/BatchBuild/BuildTargetTree.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/BatchBuild/ExecuteResultTree.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/BatchBuild/GraphCollectionDetailTree.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/BatchBuild/GraphCollectionExecuteTab.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/BatchBuild/GraphCollectionManageTab.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/BatchBuild/GraphCollectionTree.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ConfigGraphEditor.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ConnectionEvent.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ConnectionGUI.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ConnectionGUIEditor.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ConnectionGUIUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/GraphBackground.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/GroupView/GroupAssetListTree.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/GroupView/GroupListTree.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/GroupView/GroupViewController.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/NodeEvent.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/NodeGUI.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/NodeGUIEditor.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/NodeGUIUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ProjectSettings/AssetBundleSettingsTab.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ProjectSettings/ExecutionOrderSettingsTab.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/ProjectSettings/ProjectSettingsWindow.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/RecordUndoScope.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/GUI/UserPreference.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/AssetGenerators/AssetGenerateInfo.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/AssetGenerators/CreateMaterialFromTexture.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/AssetGenerators/DuplicateRefererenceAsset.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/AssetGenerators/Duplicator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/AssetGenerators/IAssetGenerator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/AssetGenerators/TextureScaler.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/AssetBundleBuildReport.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/AssetGraphController.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/AssetGraphPostprocessor.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/AssetPostprocessorContext.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/AssetProcessEvent.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/AssetProcessEventRecord.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/AssetReferenceStreamManager.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/PerformGraph.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Core/SystemDataUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Exception/AssetGraphException.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Exception/AssetReferenceException.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Exception/NodeException.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Filters/FilterByNameAndType.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Filters/FilterTypeUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Filters/FilterUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Filters/IFilter.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Importers/AudioImporterConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Importers/IAssetImporterConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Importers/ModelImporterConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Importers/ShaderImporterConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Importers/TextureImporterConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Importers/TrueTypeFontImporterConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Importers/VideoClipImporterConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Libs/MiniJSONForAssetGraph.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/AssetReference.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/AssetReferenceDatabase.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/BatchBuildConfig.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/Node.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/NodeBuildContext.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/ObjectReferenceBase.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/SerializableGroups.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/SerializableMultiTargetInstance.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/SerializableMultiTargetInt.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/SerializableMultiTargetString.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/SerializedComponent.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/SerializedInstance.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V1/ConnectionData.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V1/ConnectionPointData.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V1/NodeData.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V1/SaveData.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V1/Settings.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V2/ConfigGraph.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V2/ConnectionData.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V2/ConnectionPointData.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V2/NodeData.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V2/NodeDataImporter.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Model/V2/Settings.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Modifiers/AttachComponent.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Modifiers/IModifier.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Modifiers/SetProperty.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Modifiers/SetReference.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Modifiers/SetSpritesToAnimation.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/AssertUnwantedAssetsInBundle.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/AssetGenerator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/BundleBuilder.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/BundleConfigurator.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Error.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Exporter.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/ExtractSharedAssets.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Filter.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Grouping.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/GroupingByFile.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/GroupingBySize.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/ImportSetting.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Imported.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Label.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Loader.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/LoaderBySearch.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/MirrorDirectory.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/Modifier.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/PlayerBuilder.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/Buitin/PrefabBuilder.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Node/IPostprocess.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/PrefabBuilders/IPrefabBuilder.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/PrefabBuilders/PrefabBuildInfo.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/PrefabBuilders/PrefabBuilderUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/PrefabBuilders/ReplaceGameObjectByName.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/PrefabBuilders/ReplaceWithIncomingGameObject.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/AssetGraphUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/AssetReferenceUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/BuildTargetUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/CUIUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/ComponentMenuUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/CustomScriptUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/FileUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/JSONGraphUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/LogUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/SaveScope.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/System/Utility/TypeUtility.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/Test/ImporterTest.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Editor/Test/PathTest.cs
+Assets/AssetBundleGraphTool/UnityEngine.AssetGraph/Integration/Editor/AssetBundles-Browser/GraphToolABDataSource.cs
+Assets/PlayerPrefsEditor/Editor/Mac/Plist.cs
+Assets/PlayerPrefsEditor/Editor/PlayerPrefsEditor.cs
+-r:"C:\Program Files\Unity5.6.1f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity5.6.1f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity5.6.1f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity5.6.1f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity5.6.1f1\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0

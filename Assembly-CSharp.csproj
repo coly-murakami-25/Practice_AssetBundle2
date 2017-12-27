@@ -50,10 +50,15 @@
      <Compile Include="Assets\AssetBundleGraphTool\UnityEngine.AssetGraph\EditorRuntimeSupport\AssetBundleBuildMap.cs" />
      <Compile Include="Assets\AssetBundleGraphTool\UnityEngine.AssetGraph\EditorRuntimeSupport\AssetGraphBasePath.cs" />
      <Compile Include="Assets\Bundle_SpriteLoader.cs" />
+     <Compile Include="Assets\CSVtoScriptableObj\CSV_Impoter.cs" />
+     <Compile Include="Assets\CSVtoScriptableObj\Data.cs" />
      <Compile Include="Assets\CsvDataContainer.cs" />
      <Compile Include="Assets\GameDataManager.cs" />
      <Compile Include="Assets\PlayerPrefsEditor\PlayerPrefsUtility.cs" />
      <Compile Include="Assets\PlayerPrefsEditor\SimpleEncryption.cs" />
+     <Compile Include="Assets\ResouceDataUnziper.cs" />
+     <Compile Include="Assets\StandMyHeroes\StamyLib\Core\Resource\Data\ResourceDataManager.cs" />
+     <Compile Include="Assets\StandMyHeroes\StamyLib\Core\Resource\Data\ResourceInfo.cs" />
      <Compile Include="Assets\TitleSceneManager.cs" />
      <Compile Include="Assets\UpdateFileTableDownLoader.cs" />
      <None Include="Assets\AssetBundleGraphTool\UnityEngine.AssetGraph\Editor\SettingTemplate\readme.txt" />
