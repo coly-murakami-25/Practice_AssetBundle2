@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 61854704
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6c06e749453d01ae2c9be605d45a052a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4774d6da9b606debf00b5a5d61c4487c
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/testSprites/eventchoiceframe.png
+Dependencies: []

@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 4184821347
+CRC: 952544604
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: eventframe
+      Name: event
       Dependencies: {}
     Info_1:
-      Name: weekry
+      Name: eventchoiceframe1
       Dependencies: {}
     Info_2:
-      Name: eventchoiceframe
+      Name: eventframe1
       Dependencies: {}
     Info_3:
-      Name: event
+      Name: weekry1
       Dependencies: {}
